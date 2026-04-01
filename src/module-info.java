@@ -8,5 +8,10 @@ module JavaIICoursework {
         opens ProgrammingChallenge8 to javafx.fxml;
         exports ProgrammingChallenge8 to javafx.graphics;
 
+        opens Chapter13Week8 to javafx.fxml;
+        exports Chapter13Week8 to javafx.graphics;
+
         opens sources to javafx.graphics;
+        exports Chapter13Week9 to javafx.graphics;
+        opens Chapter13Week9 to javafx.fxml;
 }
